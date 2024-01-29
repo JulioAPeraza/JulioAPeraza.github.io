@@ -2,96 +2,332 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Julio A Peraza, MS
+    - name: Label
+      value: Software Developer, Data Science, Neuroimaging
+    - name: Email
+      value: <a href='mailto:julio.peraza@outlook.com'>julio.peraza@outlook.com </a>
+    - name: Website
+      value: <a href='https://julioaperaza.github.io/'>julioaperaza.github.io</a>
+    - name: GitHub
+      value: <a href='https://github.com/JulioAPeraza'>JulioAPeraza</a>
+    - name: LinkedIn
+      value: <a href='https://www.linkedin.com/in/julio-a-peraza-b52630245/'>julio-a-peraza-b52630245</a>
+    - name: Citizenship
+      value: United States, Cuba
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy in Physics
+      institution: Florida International University
+      location: Miami
+      department: Department of Physics
+      year: Aug. 2020 -<br>Present
+      maindescription:
+        - "<b>Thesis</b>: <i>Advancing meta-analytic tools and methods for understanding functional brain organization</i>."
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "<b>Supervisor</b>: Angela R. Laird, Ph.D."
+    - title: Master of Science in Physics
+      institution: Florida International University
+      location: Miami
+      department: Department of Physics
+      year: Nov. 2023
+      maindescription:
+        - Master en route to the Ph.D.
+    - title: Bachelor of Science in Physics
+      institution: University of Havana
+      location: Havana
+      department: Department of Physics
+      year: Sep. 2013 -<br>Jul. 2018
+      maindescription:
+        - "<b>Thesis</b>: <i>Modeling the functional activity of the brain using message-passing algorithms on a structural brain network</i>."
       description:
-        - Description 1.
-        - Description 2.
+        - "<b>Supervisors</b>: Roberto Mulet, Ph.D.; Eduardo Martínez-Montes, Ph.D."
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Florida International University, Miami, FL, USA
+      year: Aug. 2020 -<br>Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Curate, organize and develop analytic pipelines to process and analyze imaging and tabulated data from thousands of individuals from big data consortiums (ABCD, ABIDE, ADNI, ENIGMA, and HCP).
+        - Perform signal processing and denoising data from millions of voxels per structural and functional 3D/4D brain image.
+        - Apply unsupervised (e.g., clustering, dimensionality reduction) and supervised (e.g., linear regression) ML models on time-series structural and functional connectivity extracted from MRI data to understand behavior and brain function.
+        - Use advanced text scrapping, ML, AI, and large language model (LLM) to analyze the neuroscience literature to identify convergent findings across independently conducted studies, increasing statistical power, reliability, and reproducibility.
+        - Developed and contributed to 4+ open-source Python packages for image processing and neuroimaging meta-analysis (decoding brain images, text scraping, and natural language processing).
+        - Worked and collaborated on 6+ peer-reviewed journal articles and 15+ peer-reviewed conference abstracts.
+        - Trained undergraduate and graduate students on neuroimaging data analysis methods, software development with Python, data visualization, statistical analysis, machine learning, and parallel computing.
+
+    - title: Neuroimaging Data Scientist
+      institution: University of Florida, Gainesville, FL, USA
+      year: Mar. 2020 -<br>Aug. 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Curated, organized, and developed analytic pipelines to process neuroimaging data from hundreds of individuals.
+        - Performed multimodal and statistical analyses, including morphometrics, functional connectivity, and structural connectivity on 3D and 4D brain images.
+        - Developed and used convolutional neural network (CNN) to predict brain age from clinical-grade MRIs.
+        - Worked and collaborated on 6+ peer-reviewed journal articles and 7+ peer-reviewed conference abstracts.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Affiliate
+      institution: Florida International University, Miami, FL, USA
+      year: Aug. 2019 -<br>Aug. 2020
       description:
+        - Conducted an extensive literature review about motion correction techniques in fMRI data, denoising strategies using multi-echo and phase data, and complex-valued fMRI.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Undergraduate Student
+      institution: University of Havana, Havana, Cuba
+      year: Sep. 2015 -<br>Jul. 2018
+      description: 
+        - "Performed a thorough literature review in four major fields of knowledge: Neuroscience, Network Science, Complex Systems, and Statistical Physics."
+        - Implemented Metropolis-Hastings, Belief Propagation, and Susceptibility Propagation algorithm in C++.
+
+    - title: Research Assistant
+      institution: Cuban Neuroscience Center, Havana, Cuba
+      year: Sep. 2015 -<br>Jul. 2018
+      description:
+        - "Worked on the project <i>“Statistical Physics tools for inferring brain connectivity and activity from neuroimages data”</i>. Contributions to the project: conceptualization, data curation, formal analysis, investigation, methodology, software, visualization, and writing the original draft of the first paper."
+
+    - title: Research Assistant
+      institution: Cuban Neuroscience Center, Havana, Cuba
+      year: Jun. 2015 -<br>Jul. 2015
+      description:
+        - Participated in the Quality Assurance Protocol of a 3T MRI scanner Allegra (Siemens). 
+        - Assisted in the testing of an agar phantom.
+        - Conducted an extensive literature review on Magnetic Resonance.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/JulioAPeraza/gradec">Gradec</a>
+      year: 2022-now
+      maindescription: A Python library for meta-analytic functional decoding of cortical gradient of functional connectivity.
+
+- title: Peer-Reviewed Journal Articles
+  type: olist
+  contents:
+    - "1.	Peraza JA, Salo T, Riedel MC, Bottenhorn KL, Poline J-B, Dockès J, Kent JD, Bartley JE, Flannery JS, Hill-Bowen LD, Lobo RP, Poudel R, Ray KL, Robinson JL, Laird RW, Sutherland MT, de la Vega A, Laird AR. Methods for decoding cortical gradients of functional connectivity. Imaging Neuroscience, 2024."
+    - "2.	Valdes-Hernandez PA, Laffitte-Nodarse C, Peraza JA, Cole J, Cruz-Almeida Y. Toward MR protocol-agnostic, bias-corrected brain age predicted from clinical-grade MRIs. Scientific Reports, 2023."
+    - "3.	Salo T, Yarkoni T, Nichols TE, Poline J-B, Bilgel M, Bottenhorn KL, Jarecka D, Kent JD, Kimbler A, Nielson DM, Oudyk KM, Peraza JA, Pérez A, Reeders PC, Yanes JA, Laird AR. NiMARE: Neuroimaging Meta-Analysis Research Environment. Aperture Neuro, 2023."
+    - "4.	Valdés-Hernández PA, Lafitte-Nodarse C, Johnson A, Montesino-Goicolea S, Bashyam V, Davatzikos C, Peraza JA, Cole JH, Huo Z, Fillingim RB, Cruz-Almeida Y. Brain predicted age difference estimated using DeepBrainNet is significantly associated with pain and function—a multi-center study. PAIN, 2023."
+    - "5.	Smith DD, Meca A, Bottenhorn KL, Bartley JE, Riedel MC, Salo T, Peraza JA, Laird RW, Pruden SM, Sutherland MT, Brewe E, Laird AR. Task-based attentional and default mode connectivity associated with STEM anxiety profiles among university physics students. Trends in Neuroscience and Education 32, 2023"
+    - "6.	Meca A, Peraza JA, Riedel MC, Hale W, Pettit JW, Musser ED, Salo T, Flannery JS, Bottenhorn KL, Dick AS, Pintos Lobo R, Ucros LM, Greaves CA, Hawes SW, Sanchez M, Gonzalez MR, Sutherland MT, Gonzalez R, Laird AR. Acculturative orientations among Hispanic/Latinx caregivers in the ABCD Study: Associations with caregiver and youth mental health and youth brain function. Biological Psychiatry Global Open Science, 2023."
+    - "7.	Wilson A, Johnson A, Lafitte-Nodarse C, Hoyos L, Lysne P, Peraza JA, Montesino-Goicolea S, Valdés-Hernández PA, Somerville J, Bialosky J, Cruz-Almeida Y. Experimental Pain Phenotype Profiles in Community-Dwelling Older Adults. The Clinical Journal of Pain 38(7), 451-458, 2022."
+    - "8.	Johnson A, Lafitte-Nodarse C, Peraza JA, Valdés-Hernández PA, Montesino-Goicolea S, Huo Z, Fillingim RB, Cruz-Almeida Y. Psychological profiles in adults with knee OA-related pain: A replication study. Therapeutic Advances in Musculoskeletal Disease, 2021."
+    - "9.	Yeater TD, Clark DJ, Hoyos L, Valdés-Hernández PA, Peraza JA, Allen KD, Cruz-Almeida Y. Chronic Pain is Associated With Reduced Sympathetic Nervous System Reactivity During Simple and Complex Walking Tasks: Potential Cerebral Mechanisms. Chronic Stress 5, 2021."
+    - "10.	Johnson A, Wilson A, Lafitte-Nodarse C, Montesino-Goicolea S, Valdés-Hernández PA, Somerville J, Peraza JA, Fillingim RB, Bialosky J, Cruz-Almeida Y. Age Differences in Multi-modal Quantitative Sensory Testing and Associations with Brain Volume. Innovation in Aging, 2021."
+    - "11.	Peraza-Goicolea JA, Martínez-Montes E, Aubert E, Valdés-Hernández PA, Mulet R. Modeling functional resting-state brain networks through neural message passing on the human connectome. Neural Networks 123, 52–69, 2020."
+
+- title: Preprints
+  type: olist
+  contents:
+    - "1.	Pintos Lobo R, Peraza JA, Salo T, Meca A, Smith DD, Feeney KE, Schmarder KM, Sutherland MT, Gonzalez R, Musser ED, Laird AR. Social Profiles among Youth with Attention-Deficit/Hyperactivity Disorder (ADHD): Evidence from the ABCD Study. [Stage 1 Registered Report] Accepted In Principle at Developmental Cognitive Neuroscience, 2023."
+    - "2.	Bottenhorn KL, Salo T, Peraza JA, Riedel MC, Flannery JS, Kimbler A, Toll A, Suarez D, Cruz FM, Zagales I, Caldes N, Dolan O, Zagles R, Sutherland MT, Laird RW, Laird AR. Dense Investigation of Variability in Affect (DIVA): A Neuroimaging Study of Premenopausal Female Participants. bioRxiv, 2023. Submitted to Scientific Data."
+
+- title: Peer-Reviewed Conference Abstracts
+  type: olist
+  contents:
+    - "1. Sangoi J, Feeney K, Kozlowski M, Karalunas S, Riopelle C, Pintos Lobo R, Peraza JA, Gonzalez R, Laird AR, Musser E. Differences in resting-state functional connectivity of temperament-based profiles among youth with ADHD in the ABCD Study. ABCD Insights & Innovations Meeting, Bethesda, Maryland, 2024."
+    - "2. Feeney KE, Pintos Lobo R, Peraza JA, Hayes T, Gonzalez R, Laird AR, Musser ED. Interactional Effects of ADHD Diagnosis and Dysregulation in the Association Between Family Factors and Cortical-Subcortical Resting-State Functional Connectivity. INS, New York, USA, 2024."
+    - "3. Feeney KE, Pintos Lobo R, Peraza JA, Hayes T, Gonzalez R, Laird AR, Musser ED. Youth ADHD and Dysregulation as Predictors of Default- and Frontoparietal Network-Amygdala Connectivity: An ABCD Study. Flux Congress, Santa Rosa, CA, USA, 2023."
+    - "4. Peraza JA, Salo T, Riedel MC, Bottenhorn KL, Poline J-B, Dockès J, Kent JD, Bartley JE, Flannery JS, Hill-Bowen LD, Lobo RP, Poudel R, Ray KL, Robinson JL, Laird RW, Sutherland MT, de la Vega A, Laird AR. Meta-analytic decoding of the cortical gradient of functional connectivity. 29th Annual Meeting of the Organization for Human Brain Mapping, Montreal, Canada, 2023."
+    - "5. Carbello DF, Peraza JA, Riedel MC, Poudel R, Pancholi D, Murphy A, Hampson CL, Viera Perez P, Salo T, Jancetic-Bidelman TR, Mackey S, Garavan H, Sutherland MT, Laird AR. Substance use disorder-related resting state alterations: Findings from the ENIGMA-Addiction WG. 29th Annual Meeting of the Organization for Human Brain Mapping, Montreal, Canada, 2023."
+    - "6. Jancetic-Bidelman TR, Peraza JA, Salo T, Pintos Lobo R, Riedel MC, Carbello DF, Cruz B, Musser ED, Meca A, Laird AR. Identifying Identity: An ALE Meta-Analysis of the Sense of Self. 29th Annual Meeting of the Organization for Human Brain Mapping, Montreal, Canada, 2023."
+    - "7. Smith DD, Meca A, Bartley JE, Riedel MC, Salo T, Peraza JA, Bottenhorn KL, Laird RW, Pruden SM, Sutherland MT, Brewe E, Laird AR. Task-based attentional and default mode connectivity associated with STEM anxiety profiles among university physics students. 29th Annual Meeting of the Organization for Human Brain Mapping, Montreal, Canada, 2023."
+    - "8. Hampson CL, Riedel MC, Peraza JA, Pintos Lobo R, Jancetic-Bidelman TR, Viera Perez P, Musser ED, Sutherland MT, Laird AR. Meta-analytic clustering elucidates neural networks underlying social cognition. 29th Annual Meeting of the Organization for Human Brain Mapping, Montreal, Canada, 2023."
+    - "9. Kent JD, Lee N, Salo T, Bottenhorn KL, Dockès J, Blair R, Peraza JA, Nichols T, Laird AR, Poline J-B, Yarkoni T, de la Vega A. NeuroSynth-Compose: A web-based platform to reproducibly create, replicate, and extend meta-analyses. 29th Annual Meeting of the Organization for Human Brain Mapping, Montreal, Canada, 2023."
+    - "10. Juliano A, Hahn S, Pancholi D, Murphy A, Peraza JA, Riedel MC, Poudel R, Sutherland M, Laird AR, Garavan H, Mackey S. ENIGMA Addiction: Graph Theory Mega-Analysis of Resting State Functional Connectivity. 29th Annual Meeting of the Organization for Human Brain Mapping, Montreal, Canada, 2023."
+    - "11. BIDS connectivity extension project. 29th Annual Meeting of the Organization for Human Brain Mapping, Montreal, Canada, 2023."
+    - "12. Schmarder K, Sangoi J, Riopelle C, Morris S, Peraza JA, Feeney K, Pintos Lobo R, Laird AR, Gonzalez R, Musser E. Temperament-based profiles of ADHD in a clinical sample and community-recruited ABCD sample: A replication and extension. International Society for Research in Child and Adolescent Psychopathology (ISRCAP) 20th Biennial Scientific Meeting, London, UK, 2023."
+    - "13. Smith JN, Coxe S, Peraza JA, Riopelle C, Feeny K, Pintos-Lobo R, Laird AR, Gonzalez R, Musser ED. Mechanisms of irritability trajectories in early adolescence: An adolescent brain cognitive development (ABCD) study. International Society for Research in Child and Adolescent Psychopathology (ISRCAP) 20th Biennial Scientific Meeting, London, UK, 2023."
+    - "14. Feeney KE, Pintos Lobo R, Peraza JA, Hayes T, Morris AS, Gonzalez R, Laird AR, Musser ED. Positive and negative family factors are associated with child emotion (dys)regulation among youth with and without attention-deficit/hyperactivity disorder. International Society for Research in Child and Adolescent Psychopathology (ISRCAP) 20th Biennial Scientific Meeting, London, UK, 2023."
+    - "15. Feeney KE, Pintos Lobo R, Peraza JA, Gonzalez R, Laird AR, Musser ED. Examining Family Factors and Youth Emotion Dysregulation among Youth with and without ADHD. Society for Research in Child Development Biennial Meeting, Salt Lake City, Utah, USA, 2023."
+    - "16. Peraza JA, Salo T, Riedel MC, Bottenhorn KL, Poline J-B, Dockès J, Kent JD, de la Vega A, Laird AR. Meta-analytic decoding of macroscale gradients: Segmentation of connectivity gradients. 7th Big Data Neuroscience Workshop, Austin, TX, 2022."
+    - "17. Montesino-Goicolea S, Valdés-Hernández PA, Lafitte-Nodarse C, Peraza JA, Fillingim RB, Cruz-Almeida Y. Insomnia moderates the impact of chronic pain in knee osteoarthritis. 28th Annual Meeting of the Organization for Human Brain Mapping, Glasgow, Scotland, 2022."
+    - "18. Wilson A, Peraza JA, Montesino-Goicolea S, Valdés-Hernández PA, Somerville J, Bialosky J, Cruz-Almeida Y. Pain Sensitivity Profiles in Older Adults. American Physical Therapy Association (APTA), Combined Section Meeting (CSM), Virtual, 2021."
+    - "19. Yeater TD, Hoyos L, Peraza JA, Valdés-Hernández PA, Clark DJ, Allen KD, Cruz-Almeida Y. Pain differences in sympathetic nervous system reactivity during simple and complex walking tasks: potential cerebral mechanisms. US Association for the Study of Pain (USASP) meeting, Virtual, Poster Presentation, 2020."
+    - "20. Wilson A, Lafitte-Nodarse C, Peraza JA, Montesino-Goicolea S, Valdés-Hernández PA, Somerville J, Bialosky J, Cruz-Almeida Y. Examining Somatosensory Function by Age, Testing Site, and Modality. US Association for the Study of Pain (USASP) meeting, Virtual, Poster Presentation, 2020."
+    - "21. Montesino-Goicolea S, Valdés-Hernández PA, Lafitte-Nodarse C, Peraza JA, Somerville J, Griffith B, Fillingim RB, Cruz-Almeida Y. Sex differences in Brain Structure in individuals with knee osteoarthritis pain. US Association for the Study of Pain (USASP) meeting, Virtual, Poster Presentation, 2020."
+    - "22. Laffitte C, Griffith B, Somerville J, Peraza JA, Montesino-Goicolea S, Valdés-Hernández PA, Huo Z, Cole J, Fillingim RB, Cruz-Almeida Y, UPLOAD2 Team. Brain Aging and Chronic Pain: A Replication Study in Knee Osteoarthritis. US Association for the Study of Pain (USASP) meeting, Virtual, Poster Presentation, 2020."
+    - "23. Peraza-Goicolea JA, Martínez-Montes E, Aubert E, Valdés-Hernández PA, Mulet R.  Modeling functional resting-state networks through neural message passing on the human connectome. 26th Annual Meeting of the Organization for Human Brain Mapping, Virtual, Poster Presentation 1064, 2020."
+    - "24. Peraza-Goicolea JA, Martínez-Montes E, Aubert E, Valdés-Hernández PA, Mulet R.  Modeling the functional activity of the brain using message passing algorithm in criticality on the Human Connectome. BRAINMODES 2018, CNEURO, Havana, Cuba, 2018."
+    - "25. Peraza-Goicolea JA, Martínez-Montes E, Aubert E, Valdés-Hernández PA, Mulet R. Belief Propagation on a Human Neural Network. XIV Symposium and XII Congress Cuban Physics Society, University of Havana, Havana, Cuba, 2017."
+
+- title: Invited Lectures and Presentations
+  type: time_table
+  contents:
+    - title: Invited Lecture
+      year: 2020
+      maindescription: <i>Magnetic resonance imaging (MRI) processing tutorial</i>, PAIN Lab, University of Florida, Gainesville, FL.
+    - title: Presentation
+      year: 2018
+      maindescription: <i>Study of a human brain network using message passing algorithms</i>, XXXIV Student Scientific Conference, Department of Physics, University of Havana, Cuba.
+    - title: Presentation
+      year: 2018
+      maindescription: <i>Belief Propagation on a Human Connectome</i>, Student Scientific Forum 2018, University of Havana, Cuba.
+    - title: Presentation
+      year: 2017
+      maindescription: <i>Belief Propagation on a Human Connectome</i>, XXXIII Student Scientific Conference, Department of Physics, University of Havana, Cuba.
+    - title: Presentation
+      year: 2017
+      maindescription: <i>Utilization of the software Wolfram Mathematica to strengthen the learning in Physics</i>, XXXIII Student Scientific Conference, Department of Physics, UH, Cuba.
+    - title: Presentation
+      year: 2017
+      maindescription: <i>Utilization of the software Wolfram Mathematica to strength the learning in Physics</i>, 1st Latin American Workshop of Wolfram Technology for Education and Research, Department of Physics, University of Havana, Cuba.
+    - title: Presentation
+      year: 2015
+      maindescription: <i>Software Package based on Wolfram Mathematica to Strengthen the Learning in General Physics</i>, XXXI Student Scientific Conference, Department of Physics, University of Havana, Cuba.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Travel Scholarship
+      year: 2022
+      maindescription: 7th Big Data Neuroscience Workshop, Austin, Texas, 2022
+    - title: 1st Place, Digital Art Competition. 
+      year: 2018
+      maindescription:
+        - <i>The Human Connectome</i>. XXXIV Student Scientific Conference, Digital Art Generated by Algorithms Committee. Department of Physics, University of Havana, Cuba.
+    - title: 2nd Place, Best Oral Presentation Competition
+      year: 2018
+      maindescription:
+        - <i>Study of a human brain network using message passing algorithms</i>. XXXIV Student Scientific Conference, Biophysics and Complex Systems Committee. Department of Physics, University of Havana, Cuba.
+    - title: Outstanding Research Performance Award
+      year: 2017
+      maindescription: 4th Year Students, Department of Physics, University of Havana, Cuba.
+    - title: Grand Prize
+      year: 2017
+      maindescription:
+        - <i>Belief Propagation on a Human Connectome</i>. XXXIII Student Scientific Conference, Department of Physics, University of Havana, Cuba.
+    - title: 1st Place, Best Oral Presentation Competition
+      year: 2017
+      maindescription:
+        - <i>Belief Propagation on a Human Connectome</i>. XXXIII Student Scientific Conference, Biophysics and Complex Systems Committee. Department of Physics, University of Havana, Cuba.
+    - title: 3rd Place, Best Oral Presentation Competition
+      year: 2017
+      maindescription:
+        - <i>Utilization of the software Wolfram Mathematica to strengthen the learning in Physics</i>. XXXIII Student Scientific Conference, Physics Education Committee. Department of Physics, University of Havana, Cuba.
+
+- title: Professional Associations 
+  type: time_table
+  contents:
+    - title: Organization for Human Brain Mapping
+      year: 2020 - Now
+
+- title: Reviewer 
+  type: time_table
+  contents:
+    - title: Network Neuroscience
+      year: 2023 - Now
+    - title: Neuroimage
+      year: 2022 - 2023
+
+- title: Conferences, Workshops, and Hackathons
+  type: time_table
+  contents:
+    - title: Organization for Human Brain Mapping
+      location: Montreal
+      year: 2023
+      maindescription:
+        - Conference
+    - title: Neurosynth-Compose 
+      location: Austin
+      year: 2023
+      maindescription:
+        - Hackathon
+    - title: Big Data Neuroscience 
+      location: Austin
+      year: 2022
+      maindescription:
+        - Workshop
+    - title: BIDS-Connectivity
+      location: Austin
+      year: 2022
+      maindescription:
+        - Workshop
+    - title: Organization for Human Brain Mapping
+      location: Glasgow
+      year: 2022
+      maindescription:
+        - Conference
+    - title: NiMARE 
+      location: Austin
+      year: 2022
+      maindescription:
+        - Hackathon
+    - title: Gradients of Brain Organization
+      location: Online
+      year: 2021
+      maindescription:
+        - Workshop
+    - title: Organization for Human Brain Mapping
+      location: Online
+      year: 2020
+      maindescription:
+        - Conference
+    - title: OHBM Brainhack 
+      location: Online
+      year: 2020
+      maindescription:
+        - Hackathon
+    - title: Society for Neuroscience
+      location: Chicago
+      year: 2019
+      maindescription:
+        - Conference
+
+- title: Related Professional Skills
+  type: map
+  contents:
+    - name: Neuroimaging Software
+      value: AFNI, FSL, Freesurfer, CONN, SPM, MRtrix, ANTS, MRIQC, fMRIPrep, QSIPrep, xcpEngine
+    - name: Neuroimaging Datasets
+      value: ABCD, ABIDE, ADNI, ENIGMA, HCP
+    - name: Programming Languages
+      value: Python, UNIX shell scripting, C, C++, HTML5, CSS
+    - name: Python Packages
+      value: numpy, pandas, numba, nilearn, nimare, nibabel, sklearn, torch, matplotlib, seaborn, plotly, coverage, pytest, sphinx
+    - name: Parallel Computing
+      value: High-performance computing (SLURM), parallel (UNIX)
+    - name: Statistical Software
+      value: SPSS, MPlus, R
+    - name: Lab Software
+      value: Qtiplot, Origin, Logger Pro
+    - name: Computing platform
+      value: Matlab, Wolfram Mathematica
+    - name: Operative System
+      value: Windows, Linux, Mac
+    - name: Other
+      value: Jupyter Notebooks, Git, GitHub, Docker, Singularity, Adobe Photoshop/ Lightroom/Illustrator, Latex, Microsoft (Word, Excel, and PowerPoint)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Software Development
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Open-source.
+        - Python.
+    - title: Machine Learning.
       items:
-        - Description 1.
-        - Description 2.
+        - "Unsupervised learning: clustering, dimensionality reduction."
+        - "Supervised learning: linear regression, logistic regression, support vector machine, convolutional neural network."
+    - title: Data Science.
+      items:
+        - "Data visualization."
+        - "Statistical analysis."
+    - title: Artificial Intelligence.
+      items:
+        - "Text scraping and natural language processing."
+        - "Large language model (LLM)."
+        - "Image decoding."
+    - title: Neuroimaging.
+      items:
+        - "Structural, Functional and Diffusion MRI."
+        - "Image processing and denoising."
+        - "Connectivity analysis."
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Photography.
+

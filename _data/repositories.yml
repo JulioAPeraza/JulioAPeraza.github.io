@@ -1,12 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - JulioAPeraza
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - JulioAPeraza/gradec
+  - neurostuff/NiMARE
+  - neurostuff/PyMARE
+  - NBCLab/gradient-decoding
+  - NBCLab/PACE
+  - NBCLab/abcd_fmriprep-analysis
+  - JulioAPeraza/BP_SP_on_HC
+  - JulioAPeraza/MH_on_HC

@@ -30,6 +30,8 @@ layout: default
             <div>
               {% if entry.type == 'list' %}
                 {% include cv/list.liquid %}
+              {% elsif entry.type == 'olist' %}
+                {% include cv/olist.liquid %}
               {% elsif entry.type == 'map' %}
                 {% include cv/map.liquid %}
               {% elsif entry.type == 'nested_list' %}
